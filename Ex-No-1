@@ -1,0 +1,66 @@
+
+AIM:  
+To draw the diagrams [usecase, activity, sequence, collaboration, class, statechart,collaboration, component, deployment, package] for the Passport Automation System.
+
+PROBLEM ANALYSIS AND PROJECT PLAN
+To simplify the process of applying passport, software has been created by designing through rational rose tool. Initially the applicant login the passport automation system and submits 
+his details. These details are stored in the database and verification process done by the passport administrator, regional administrator and police the passport is issued to the applicant.
+
+PROJECT DESCRIPTION:  
+This software is designed for the verification of the passport details of the applicant by the central computer.  The details regarding the passport will be provided to the central computer and 
+the computer will verify the details of applicant and provide approval to the office.  Then the passport will issue from the office to the applicant.
+
+1.USE CASE DIAGRAM:  
+This diagram will contain the actors, use cases which are given below  
+Actors: Applicant, Enquiry Officer.  
+Use case: Applicant details, Applicant proof, Verification of proof, Issue of 
+passport, Cancellation of the passport.  
+
+2.CLASS DIAGRAM:  
+This diagram consists of the following classes, attributes and their operations. 
+CLASSES-->Passport management system Verify details, Store proof Verification of proof() 
+ATTRIBTES-->Enquiry officer Applicant details Issue of passport() 
+OPERATIONS--> Applicant Name, Details Apply passport()
+
+3.ACTIVITY DIAGRAM: 
+This diagram will have the activities as Start point, End point, Decision boxes as given 
+below:  
+Activities: Enter applicant details, Submission of proof, Verification of details, 
+Issue of passport. 
+Decision box: Check details whether it is correct or not.
+
+4.SEQUENCE DIAGRAM:  
+This diagram consists of the objects, messages and return messages.  
+Object: Applicant, Enquiry officer, Passport management system.
+
+5.COLLABORATION DIAGRAM:  
+This diagram contains the objects and actors. This will be obtained by the completion of 
+the sequence diagram and pressing the F5 key.
+
+6.STATE CHART DIAGRAM : 
+The purpose of state chart diagram is to understand the algorithm involved in performing 
+a method. It is also called as state diagram. A state is represented as a round box, which may 
+contain one or more compartments. An initial state is represented as small dot. An final state is 
+represented as circle surrounding a small dot. 
+
+7.COMPONENT DIAGRAM  
+The component diagram's main purpose is to show the structural relationships between the 
+components of a system. It is represented by boxed figure. Dependencies are represented by 
+communication association.
+
+8.DEPLOYMENT DIAGRAM  
+A deployment diagram in the unified modeling language serves to model the physical 
+deployment of artifacts on deployment targets. Deployment diagrams show "the allocation of 
+artifacts to nodes according to the Deployments defined between them. It is represented by 3- 
+dimentional box. Dependencies are represented by communication association. 
+
+9.PACKAGE DIAGRAM: 
+ A package diagram in unified modeling language that depicts the dependencies 
+between the packages that make up a model. A Package Diagram (PD) shows a grouping of 
+elements in the OO model, and is a Cradle extension to UML. PDs can be used to show groups of 
+classes in Class Diagrams (CDs), groups of components or processes in Component Diagrams 
+(CPDs), or groups of processors in Deployment Diagrams (DPDs).  
+There are three types of layer. They are  
+o User interface layer  
+o Domain layer  
+o Technical services layer
